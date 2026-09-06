@@ -1,7 +1,16 @@
 import os
 
-ANGEL_BOT_TOKEN = os.environ['ANGEL_BOT_TOKEN']
-PLAYERS_FILENAME = os.environ['PLAYERS_FILENAME']
-CHAT_ID_JSON = os.environ['CHAT_ID_JSON']
-ANGEL_ALIAS = os.environ['ANGEL_ALIAS']
-MORTAL_ALIAS = os.environ['MORTAL_ALIAS']
+# ANGEL_BOT_TOKEN = os.environ['ANGEL_BOT_TOKEN']
+ANGEL_BOT_TOKEN = '8997261889:AAFkBQS1E-2q8XiU15XFpnkc0o160vYU9Tw'
+
+# PLAYERS_FILENAME = os.environ['PLAYERS_FILENAME']
+PLAYERS_FILENAME = 'users.csv'
+
+# CHAT_ID_JSON = os.environ['CHAT_ID_JSON']
+CHAT_ID_JSON = 'chat_ids.json'
+
+# ANGEL_ALIAS = os.environ['ANGEL_ALIAS']
+ANGEL_ALIAS = 'Angel'
+
+# MORTAL_ALIAS = os.environ['MORTAL_ALIAS']
+MORTAL_ALIAS = 'Mortal'

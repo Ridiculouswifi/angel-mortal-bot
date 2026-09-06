@@ -9,6 +9,7 @@ HELP_TEXT = (
 ERROR_CHAT_ID = 'Sorry an error occured please type /start again'
 SEND_COMMAND = 'Send a message to my:\n(/cancel to stop)'
 NOT_REGISTERED = 'Sorry you are not registered with the game currently'
+NO_USERNAME = 'This bot requires a Telegram username. Please set one and try again.'
 
 def getBotNotStartedMessage(alias):
     return f'Sorry your {alias} has not started this bot'
